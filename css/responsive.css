@@ -2,17 +2,32 @@
 @media (min-width: 0px) and (max-width: 374px) {
   .jumbotron {
     /* margin-top: -100px !important; */
-    height: 650px;
+    height: 600px;
   }
   .jumbotron .display-4 {
-    font-size: 35px;
+    /* font-size: 35px; */
+    width: 250px;
+    margin-top: 80px;
+  }
+
+  .jumbotron #undangan {
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .jumbotron p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  #laki {
+    margin-bottom: 20px;
+  }
+  .maps {
+    margin-bottom: 20px;
+  }
+
+  footer {
     margin-top: 100px;
-  }
-  .jumbotron .display-4 span {
-    font-size: 70px;
-  }
-  .jumbotron .display-4 span #dan {
-    display: block;
   }
 }
 

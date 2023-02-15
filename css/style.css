@@ -57,7 +57,7 @@ body {
 /* jumbotron */
 .jumbotron {
   /* background-image: url(/img/wedding.jpg) !important; */
-  background-image: url("../img/wedding.jpg");
+  background-image: url("../img/bg-jumbotron.jpg");
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -79,28 +79,32 @@ body {
   position: absolute;
   bottom: 0;
 }
-
 .jumbotron .display-4 {
+  margin-top: -100px;
+}
+
+.jumbotron h1 {
   color: white;
-  margin-top: 200px;
-  /* font-size: 70px !important; */
-  font-weight: 500;
-  font-family: "Lora", serif;
+  margin-top: 20px;
+  font-size: 70px !important;
+  font-weight: 600;
+  font-family: "Explora", cursive;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 
-.jumbotron .display-4 span {
+/* .jumbotron .display-4 span {
   font-weight: 700;
   font-family: "Explora", cursive;
-  font-size: 100px;
-}
-.jumbotron .display-4 p {
-  font-size: 20px;
+  font-size: 200px;
+} */
+.jumbotron p {
+  font-size: 30px;
   margin-top: 5px;
+  font-weight: 500;
 }
 
 p {
-  color: #acacac;
+  color: #fff;
 }
 /* intro */
 #intro {
@@ -110,7 +114,6 @@ p {
 #intro h2 {
   color: #34364a;
   font-weight: 600;
-
   font-size: 40px;
   font-family: "Explora", cursive;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
@@ -119,6 +122,9 @@ p {
   color: #34364a;
   font-weight: 900;
   margin-top: 25px;
+}
+#intro p {
+  color: #9d9c9c;
 }
 #intro .pembukaan .bi {
   font-size: 35px;
@@ -144,22 +150,23 @@ p {
   text-align: center;
   display: block;
 }
+
 .akad h4 {
-  font-size: 24px;
+  font-size: 21px;
   color: #2e4f59;
   font-weight: 700;
 }
 .akad h3 {
-  font-size: 27px;
+  font-size: 24px;
   color: #2e4f59;
   font-weight: 700;
 }
 .mb-200 {
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 50px;
 }
 .akad h5 {
-  font-size: 17px;
+  font-size: 20px;
   color: #395f6b;
   font-weight: 700;
 }
@@ -167,6 +174,51 @@ p {
 .akad p {
   font-size: 15px;
   font-weight: 500;
+}
+
+/* undangan pernikahan */
+#pernikahan {
+  margin-top: 70px !important;
+}
+/* .undangan-nikah {
+  background: url("../img/wedding.jpg") !important;
+  background-size: cover;
+} */
+.undangan-nikah h1 {
+  /* color: white; */
+  margin-top: 20px;
+  font-size: 65px !important;
+  font-weight: 600;
+  font-family: "Explora", cursive;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.undangan-nikah p {
+  color: #787676;
+  margin-top: 0;
+  width: 50%;
+  float: left;
+}
+.undangan-nikah hr {
+  float: left;
+  width: 24%;
+  height: 1px;
+  margin-top: 16px;
+  border: none;
+  background-color: #000;
+}
+#pernikahan h2 {
+  color: #34364a;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: "Explora", cursive;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+#pernikahan h4 {
+  font-size: 24px;
+  color: #2e4f59;
+  font-weight: 700;
 }
 
 .hitung-mundur h4 {
