@@ -196,6 +196,7 @@ p {
 .undangan-nikah p {
   color: #787676;
   margin-top: 0;
+  margin-bottom: 0;
   width: 50%;
   float: left;
 }
@@ -203,7 +204,7 @@ p {
   float: left;
   width: 24%;
   height: 1px;
-  /* margin-top: 16px; */
+  margin-top: 16px;
   border: none;
   background-color: #000;
 }
